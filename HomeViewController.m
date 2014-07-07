@@ -7,8 +7,11 @@
 //
 
 #import "HomeViewController.h"
+#import "LoginViewController.h"
 
 @interface HomeViewController ()
+- (IBAction)loginButtonTap:(id)sender;
+@property (strong, nonatomic) LoginViewController *loginViewController;
 
 @end
 
@@ -19,6 +22,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+
     }
     return self;
 }
@@ -35,4 +39,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)loginButtonTap:(id)sender {
+    
+}
 @end

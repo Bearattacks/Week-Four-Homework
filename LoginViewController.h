@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol LoginViewControllerProtocol <NSObject>
+
+- (void)cancelPressed;
+
+
+@end
+
 @interface LoginViewController : UIViewController
 
+@property(nonatomic, readwrite, weak) id<LoginViewControllerProtocol> delegate;
+- (IBAction)cancelPress:(id)sender;
 @end

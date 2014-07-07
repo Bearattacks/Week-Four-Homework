@@ -19,6 +19,20 @@
 		BFB9C405196A8AB700E04811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB9C3ED196A8AB700E04811 /* UIKit.framework */; };
 		BFB9C40D196A8AB700E04811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C40B196A8AB700E04811 /* InfoPlist.strings */; };
 		BFB9C40F196A8AB700E04811 /* Week_Four_HomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9C40E196A8AB700E04811 /* Week_Four_HomeworkTests.m */; };
+		BFB9C41B196A8EB300E04811 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9C419196A8EB300E04811 /* HomeViewController.m */; };
+		BFB9C41C196A8EB300E04811 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C41A196A8EB300E04811 /* HomeViewController.xib */; };
+		BFB9C421196A8EE300E04811 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9C41F196A8EE300E04811 /* SearchViewController.m */; };
+		BFB9C422196A8EE300E04811 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C420196A8EE300E04811 /* SearchViewController.xib */; };
+		BFB9C427196A8EF800E04811 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9C425196A8EF800E04811 /* ComposeViewController.m */; };
+		BFB9C428196A8EF800E04811 /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C426196A8EF800E04811 /* ComposeViewController.xib */; };
+		BFB9C42D196A8F4C00E04811 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9C42B196A8F4C00E04811 /* AccountViewController.m */; };
+		BFB9C42E196A8F4C00E04811 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C42C196A8F4C00E04811 /* AccountViewController.xib */; };
+		BFB9C433196A903C00E04811 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9C431196A903C00E04811 /* ActivityViewController.m */; };
+		BFB9C434196A903C00E04811 /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C432196A903C00E04811 /* ActivityViewController.xib */; };
+		BFB9C43C196A91BC00E04811 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9C43A196A91BC00E04811 /* TabViewController.m */; };
+		BFB9C43D196A91BC00E04811 /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C43B196A91BC00E04811 /* TabViewController.xib */; };
+		BFDE3A65196B4D1E002CE212 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE3A63196B4D1E002CE212 /* LoginViewController.m */; };
+		BFDE3A66196B4D1E002CE212 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDE3A64196B4D1E002CE212 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,27 @@
 		BFB9C40A196A8AB700E04811 /* Week Four HomeworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week Four HomeworkTests-Info.plist"; sourceTree = "<group>"; };
 		BFB9C40C196A8AB700E04811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFB9C40E196A8AB700E04811 /* Week_Four_HomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_Four_HomeworkTests.m; sourceTree = "<group>"; };
+		BFB9C418196A8EB300E04811 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BFB9C419196A8EB300E04811 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BFB9C41A196A8EB300E04811 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BFB9C41E196A8EE300E04811 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		BFB9C41F196A8EE300E04811 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		BFB9C420196A8EE300E04811 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		BFB9C424196A8EF800E04811 /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		BFB9C425196A8EF800E04811 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		BFB9C426196A8EF800E04811 /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
+		BFB9C42A196A8F4C00E04811 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		BFB9C42B196A8F4C00E04811 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		BFB9C42C196A8F4C00E04811 /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		BFB9C430196A903C00E04811 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		BFB9C431196A903C00E04811 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		BFB9C432196A903C00E04811 /* ActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
+		BFB9C439196A91BC00E04811 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		BFB9C43A196A91BC00E04811 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		BFB9C43B196A91BC00E04811 /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
+		BFDE3A62196B4D1E002CE212 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BFDE3A63196B4D1E002CE212 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BFDE3A64196B4D1E002CE212 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +142,12 @@
 		BFB9C3EF196A8AB700E04811 /* Week Four Homework */ = {
 			isa = PBXGroup;
 			children = (
+				BFB9C43E196A91BF00E04811 /* Tabbar */,
+				BFB9C41D196A8EC600E04811 /* Home */,
+				BFB9C435196A904200E04811 /* Activity */,
+				BFB9C423196A8EE600E04811 /* Search */,
+				BFB9C429196A8EFC00E04811 /* Compose */,
+				BFB9C42F196A8F5900E04811 /* Account */,
 				BFB9C3F8196A8AB700E04811 /* AppDelegate.h */,
 				BFB9C3F9196A8AB700E04811 /* AppDelegate.m */,
 				BFB9C3FB196A8AB700E04811 /* Images.xcassets */,
@@ -142,6 +183,75 @@
 				BFB9C40B196A8AB700E04811 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFB9C41D196A8EC600E04811 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C418196A8EB300E04811 /* HomeViewController.h */,
+				BFB9C419196A8EB300E04811 /* HomeViewController.m */,
+				BFB9C41A196A8EB300E04811 /* HomeViewController.xib */,
+				BFDE3A62196B4D1E002CE212 /* LoginViewController.h */,
+				BFDE3A63196B4D1E002CE212 /* LoginViewController.m */,
+				BFDE3A64196B4D1E002CE212 /* LoginViewController.xib */,
+			);
+			name = Home;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BFB9C423196A8EE600E04811 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C41E196A8EE300E04811 /* SearchViewController.h */,
+				BFB9C41F196A8EE300E04811 /* SearchViewController.m */,
+				BFB9C420196A8EE300E04811 /* SearchViewController.xib */,
+			);
+			name = Search;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BFB9C429196A8EFC00E04811 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C424196A8EF800E04811 /* ComposeViewController.h */,
+				BFB9C425196A8EF800E04811 /* ComposeViewController.m */,
+				BFB9C426196A8EF800E04811 /* ComposeViewController.xib */,
+			);
+			name = Compose;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BFB9C42F196A8F5900E04811 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C42A196A8F4C00E04811 /* AccountViewController.h */,
+				BFB9C42B196A8F4C00E04811 /* AccountViewController.m */,
+				BFB9C42C196A8F4C00E04811 /* AccountViewController.xib */,
+			);
+			name = Account;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BFB9C435196A904200E04811 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C430196A903C00E04811 /* ActivityViewController.h */,
+				BFB9C431196A903C00E04811 /* ActivityViewController.m */,
+				BFB9C432196A903C00E04811 /* ActivityViewController.xib */,
+			);
+			name = Activity;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BFB9C43E196A91BF00E04811 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C439196A91BC00E04811 /* TabViewController.h */,
+				BFB9C43A196A91BC00E04811 /* TabViewController.m */,
+				BFB9C43B196A91BC00E04811 /* TabViewController.xib */,
+			);
+			name = Tabbar;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +331,13 @@
 			files = (
 				BFB9C3F4196A8AB700E04811 /* InfoPlist.strings in Resources */,
 				BFB9C3FC196A8AB700E04811 /* Images.xcassets in Resources */,
+				BFB9C422196A8EE300E04811 /* SearchViewController.xib in Resources */,
+				BFB9C428196A8EF800E04811 /* ComposeViewController.xib in Resources */,
+				BFB9C43D196A91BC00E04811 /* TabViewController.xib in Resources */,
+				BFB9C42E196A8F4C00E04811 /* AccountViewController.xib in Resources */,
+				BFB9C434196A903C00E04811 /* ActivityViewController.xib in Resources */,
+				BFB9C41C196A8EB300E04811 /* HomeViewController.xib in Resources */,
+				BFDE3A66196B4D1E002CE212 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +358,13 @@
 			files = (
 				BFB9C3FA196A8AB700E04811 /* AppDelegate.m in Sources */,
 				BFB9C3F6196A8AB700E04811 /* main.m in Sources */,
+				BFB9C421196A8EE300E04811 /* SearchViewController.m in Sources */,
+				BFB9C427196A8EF800E04811 /* ComposeViewController.m in Sources */,
+				BFB9C43C196A91BC00E04811 /* TabViewController.m in Sources */,
+				BFDE3A65196B4D1E002CE212 /* LoginViewController.m in Sources */,
+				BFB9C42D196A8F4C00E04811 /* AccountViewController.m in Sources */,
+				BFB9C433196A903C00E04811 /* ActivityViewController.m in Sources */,
+				BFB9C41B196A8EB300E04811 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +561,7 @@
 				BFB9C414196A8AB700E04811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB9C415196A8AB700E04811 /* Build configuration list for PBXNativeTarget "Week Four HomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +570,7 @@
 				BFB9C417196A8AB700E04811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
